@@ -35,6 +35,9 @@ console.log(movie);
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
+        display: 'flex',
+        justifyContent: 'space-between',
+        flexDirection: 'column'
     }}>
 
         <div className='banner__contents' >
@@ -52,8 +55,8 @@ console.log(movie);
             </h1>
         </div>
 
-    <div className='banner--fadeBottom' />
     
+    <div className='banner--fadeBottom' />
     </header>
     
   )
